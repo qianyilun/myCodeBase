@@ -5,11 +5,9 @@ void saveToFile(String formattedJson) {
         writer = new BufferedWriter( new FileWriter("history.json"));
         writer.write(formattedJson);
 
-    }
-    catch (IOException e) {
+    } catch (IOException e) {
         e.printStackTrace();
-    }
-    finally {
+    } finally {
         try {
             if (writer != null) {
                 writer.close();
