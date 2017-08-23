@@ -1,10 +1,8 @@
 /*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
- * https://www.google.com/settings/security/lesssecureapps
+ * Note, need to modify via https://www.google.com/settings/security/lesssecureapps
  */
-
-package SendEmail;
 
 /**
  *
